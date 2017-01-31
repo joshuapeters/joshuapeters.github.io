@@ -1,0 +1,48 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.main-header{
+    box-sizing: border-box;
+    position:relative;
+    min-height: 600px;
+    width: 100%;
+    background-size: 600px 100%;
+    background: black url("assets/PCAD.png") no-repeat center;
+    text-wrap: avoid;
+
+}
+
+.header{
+    font-family: "Arsenal", sans-serif;
+    font-size: 5rem;
+    color: white;
+    padding: 15% 10% 10% 10%;
+    letter-spacing: 4px;
+}
+strong.header{
+    margin-bottom: 35%;
+}
+
+.text-center{
+    text-align: center;
+    position: relative;
+}
+
+.section-even{
+    background-color: black;
+}
+
+.section-odd{
+    background-color: white;
+}
+
+.about-me{
+    margin: 0;
+    padding: 5px 10% 30px 10%;
+    font-family: "Arsenal", sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+}
