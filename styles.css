@@ -31,6 +31,8 @@ strong.header{
 
 .section-even{
     background-color: black;
+    border-top: solid;
+    padding: 1.5em;
 }
 
 .section-odd{
@@ -45,4 +47,9 @@ strong.header{
     font-size: 16px;
     text-align: center;
     letter-spacing: 4px;
+}
+
+.tech{
+    text-align: center;
+    margin: .5em;
 }
