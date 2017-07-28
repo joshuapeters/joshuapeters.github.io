@@ -12,6 +12,13 @@ body{
     text-wrap: avoid;
 
 }
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 
 .header{
     font-family: "Arsenal", sans-serif;
@@ -52,4 +59,20 @@ strong.header{
 .tech{
     text-align: center;
     margin: 1rem;
+}
+
+.image img {
+  max-height:50px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    border:1px solid black;
+}
+
+.footer .image {
+  text-align:center;
+  height:50px;
 }
